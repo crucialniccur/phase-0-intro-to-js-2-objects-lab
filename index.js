@@ -3,3 +3,7 @@ const employee = {
   name: "Am mati innit",
   streetAddress: "i live somewhere alright",
 };
+
+function updateEmployeeWithKeyAndValue(employee, object, ...updatedOne) {
+  return updatedOne;
+}
