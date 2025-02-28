@@ -7,3 +7,7 @@ const employee = {
 function updateEmployeeWithKeyAndValue(employee, object, ...updatedOne) {
   return updatedOne;
 }
+
+// function destructivelyUpdateEmployeeWithKeyAndValue(employee, object) {
+//   return employee, updatedOne;
+// }
