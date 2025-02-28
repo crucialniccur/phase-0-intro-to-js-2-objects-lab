@@ -4,10 +4,11 @@ const employee = {
   streetAddress: "i live somewhere alright",
 };
 
-function updateEmployeeWithKeyAndValue(employee, object, ...updatedOne) {
-  return updatedOne;
+function updateEmployeeWithKeyAndValue(employee, key, value) {
+  return { ...employee, [key]: value };
 }
 
-// function destructivelyUpdateEmployeeWithKeyAndValue(employee, object) {
-//   return employee, updatedOne;
+// function destructivelyUpdateEmployeeWithKeyAndValue(employee, object, value) {
+//   employee[key] = value;
+//   return employee;
 // }
